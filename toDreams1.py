@@ -101,7 +101,6 @@ def get2(message):
 #    elif call.data == 'no':
 #        bot.send_message(call.message.chat.id, 'Задача была удалена')
 
-#if __name__ == "__main__":
 bot.polling(none_stop=True)
 
 
